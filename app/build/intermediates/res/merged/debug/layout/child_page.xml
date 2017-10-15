@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="20dp">
+
+    <SurfaceView
+        android:id="@+id/cameraPreview"
+        android:layout_gravity="bottom"
+        android:layout_width="480dp"
+        android:layout_height="480px"
+        android:layout_marginTop="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/please_clock_in_your_child"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

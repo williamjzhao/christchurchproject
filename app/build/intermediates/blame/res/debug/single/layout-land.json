@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\AttendanceProgramFinal\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\qrresults.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\AttendanceProgramFinal\\app\\src\\main\\res\\layout-land\\qrresults.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\AttendanceProgramFinal\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\AttendanceProgramFinal\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\AttendanceProgramFinal\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\employee_page.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\AttendanceProgramFinal\\app\\src\\main\\res\\layout-land\\employee_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Alex\\AndroidStudioProjects\\AttendanceProgramFinal\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\child_page.xml",
+        "source": "C:\\Users\\Alex\\AndroidStudioProjects\\AttendanceProgramFinal\\app\\src\\main\\res\\layout-land\\child_page.xml"
+    }
+]

@@ -1,0 +1,475 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Alex\.android\build-cache\8882359715b454e9e1978118b17c4d806cce5430\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Alex\.android\build-cache\5a797dc8e5fbd693e8107d124c4229a4653ce0b6\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Alex\.android\build-cache\3e9744c7415cf99a532ea5d51bccbc3d0c6349af\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Alex\.android\build-cache\03a6541df1fd53a47d9a3e8fcba2930e249d635b\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\febb143662bd1b14eca4bf4fde3ce95f07d43fd8\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\4341c66813dfa3a366598c5a685ac74d71f5e983\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Alex\.android\build-cache\4feac9abe4cd6d95b837fdf155336f00d1b20508\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Alex\.android\build-cache\8882359715b454e9e1978118b17c4d806cce5430\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Alex\.android\build-cache\2ba90fa3a2cff725ebdf8fb9428c45ca675aa46c\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\febb143662bd1b14eca4bf4fde3ce95f07d43fd8\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\4341c66813dfa3a366598c5a685ac74d71f5e983\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Alex\.android\build-cache\4feac9abe4cd6d95b837fdf155336f00d1b20508\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:6:22-76
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:7:22-68
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:9:5-64
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:9:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:10:5-85
+	android:required
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:10:58-82
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:10:19-57
+uses-feature#android.hardware.camera.front
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:11:5-91
+	android:required
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:11:64-88
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:11:19-63
+application
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:13:5-33:19
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\Alex\.android\build-cache\f1c1ef756c0d30b35d13b3623520e5ca3948f6bd\output\AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\Alex\.android\build-cache\46f50387506c7c436f54d5084a0eb72e1eda7fd2\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Alex\.android\build-cache\8882359715b454e9e1978118b17c4d806cce5430\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Alex\.android\build-cache\b1f7fc79291f1f314965d3eeed9fa89bbbea5e6b\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] C:\Users\Alex\.android\build-cache\fd5a6f270a1f989ab68c15fa19c962c99cdb9b4e\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Alex\.android\build-cache\550c1a3a38343128f4b3b2cddd8f6f987742941e\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Alex\.android\build-cache\3fad63f5c70a212dd8a3c6c26cf7e3d358e09f79\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Alex\.android\build-cache\8d9a4aa4f230f21f6afb02b5bca479e67010fcb8\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Alex\.android\build-cache\047bc0508572b2c792ecb1748ee61501f9e1ee6c\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Alex\.android\build-cache\61fe61e76be5f5a44d7ccba471250ec0ee3cb831\output\AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Alex\.android\build-cache\595a00bd4c924f6130337c982bff61d047164eab\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Users\Alex\.android\build-cache\15b3463abc8b29a9e82cead9e43f5744025d054f\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] C:\Users\Alex\.android\build-cache\fba16f98af907df0f60a4588cb1e5e35c0b431e5\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Alex\.android\build-cache\5a797dc8e5fbd693e8107d124c4229a4653ce0b6\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Users\Alex\.android\build-cache\dea608b6bec145cac50546499a5330207f179572\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] C:\Users\Alex\.android\build-cache\048af7257053f6064b866ab86779525ee1c8c2ce\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.0] C:\Users\Alex\.android\build-cache\4fd51a9f23a5f4ebfc261ebc948195c04e93e1d1\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] C:\Users\Alex\.android\build-cache\575a15182c4b0d08df5aa3d4a4267059fcdc73d8\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] C:\Users\Alex\.android\build-cache\7e10b1581481cbd9711a087f2d3919823024a110\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Alex\.android\build-cache\3e9744c7415cf99a532ea5d51bccbc3d0c6349af\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] C:\Users\Alex\.android\build-cache\79f177c2ba2ee803e2c75945d80391b95473a8cd\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Alex\.android\build-cache\03a6541df1fd53a47d9a3e8fcba2930e249d635b\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.0] C:\Users\Alex\.android\build-cache\db995a9006b66cbb3db0468a24698d9f7ff6a83d\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Alex\.android\build-cache\2ba90fa3a2cff725ebdf8fb9428c45ca675aa46c\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] C:\Users\Alex\.android\build-cache\3a37da324365ee3cf7de2a0ce3eb1300d413c09b\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.0] C:\Users\Alex\.android\build-cache\f42e2d3112e7255792d3814854b75a0750c56029\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] C:\Users\Alex\.android\build-cache\378093c3b304494788cf2b4e53a0c14e842bec09\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] C:\Users\Alex\.android\build-cache\5b903058c3d3a837c0e6118254595b88f0652e9d\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\febb143662bd1b14eca4bf4fde3ce95f07d43fd8\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Alex\.android\build-cache\e5353e827a05e7a5627d898e5747e6441b2d7731\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] C:\Users\Alex\.android\build-cache\58eafd5a50bcc0f346318b18818ce1973f54aef4\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\4341c66813dfa3a366598c5a685ac74d71f5e983\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] C:\Users\Alex\.android\build-cache\8517bf80eff7ee2e3df3b5f5010c3d323afa8f30\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] C:\Users\Alex\.android\build-cache\315fd4b50f5f6faba1d2bd89ace7c5ce34c8acb6\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Alex\.android\build-cache\4feac9abe4cd6d95b837fdf155336f00d1b20508\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] C:\Users\Alex\.android\build-cache\030bae05f0bec253e236fe01dcbee9c3555bf549\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Alex\.android\build-cache\ac93813da0123bdbdd405d1a196cc4e018333d24\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Alex\.android\build-cache\242391936509240b9473ab1fe244a6ce206d5605\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Alex\.android\build-cache\9fe190321d6ed6ee042098c5e0d1e763868e8845\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Alex\.android\build-cache\10c2be531fbcf55d3171387570873d0827798618\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Alex\.android\build-cache\0bcb1760ce4dd047b714ff70e003ea6b779e7b27\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Alex\.android\build-cache\375a89dd7a472279b6c38bf4c949d4d312145920\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\Alex\.android\build-cache\c9a1e276f9e5a500890c46636632a758762d6f81\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\Alex\.android\build-cache\2a6f19ad5307a14b1b9a5611ebd47a33340f06b7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Alex\.android\build-cache\146da4db01b1500b5ec01070d2a223e84f60dec8\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:16:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:17:9-35
+	android:allowBackup
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:14:9-35
+	android:icon
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:15:9-43
+	android:theme
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:18:9-40
+activity#com.example.attendanceprogramfinal.MainActivity
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:19:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:23:27-74
+activity#com.example.attendanceprogramfinal.EmployeePage
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:26:9-49
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:26:19-47
+activity#com.example.attendanceprogramfinal.QRResults
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:27:9-46
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:27:19-44
+meta-data#com.google.gms.vision.DPENEDENCIES
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:28:9-95
+	android:value
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:28:70-93
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:28:20-69
+activity#com.example.attendanceprogramfinal.ChildPage
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:29:9-46
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:29:19-44
+activity#com.example.attendanceprogramfinal.ClockInPage
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:30:9-48
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:30:19-46
+activity#com.example.attendanceprogramfinal.ClockOutPage
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:31:9-49
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:31:19-47
+activity#com.example.attendanceprogramfinal.ReturnPage
+ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:32:9-47
+	android:name
+		ADDED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml:32:19-45
+uses-sdk
+INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [pub.devrel:easypermissions:0.2.1] C:\Users\Alex\.android\build-cache\f1c1ef756c0d30b35d13b3623520e5ca3948f6bd\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services:10.2.0] C:\Users\Alex\.android\build-cache\46f50387506c7c436f54d5084a0eb72e1eda7fd2\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.0] C:\Users\Alex\.android\build-cache\7dea89a395aff63fc10833f87c3bc6da0802ff8f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Alex\.android\build-cache\8882359715b454e9e1978118b17c4d806cce5430\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.0] C:\Users\Alex\.android\build-cache\b95f2e3fc5d4a33848877e3e20cef71818320a23\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Alex\.android\build-cache\b1f7fc79291f1f314965d3eeed9fa89bbbea5e6b\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.0] C:\Users\Alex\.android\build-cache\fd5a6f270a1f989ab68c15fa19c962c99cdb9b4e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\Alex\.android\build-cache\550c1a3a38343128f4b3b2cddd8f6f987742941e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\Alex\.android\build-cache\3fad63f5c70a212dd8a3c6c26cf7e3d358e09f79\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Alex\.android\build-cache\8d9a4aa4f230f21f6afb02b5bca479e67010fcb8\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\Alex\.android\build-cache\047bc0508572b2c792ecb1748ee61501f9e1ee6c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\Alex\.android\build-cache\61fe61e76be5f5a44d7ccba471250ec0ee3cb831\output\AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.0] C:\Users\Alex\.android\build-cache\595a00bd4c924f6130337c982bff61d047164eab\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.0] C:\Users\Alex\.android\build-cache\15b3463abc8b29a9e82cead9e43f5744025d054f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.0] C:\Users\Alex\.android\build-cache\fba16f98af907df0f60a4588cb1e5e35c0b431e5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.0] C:\Users\Alex\.android\build-cache\5a797dc8e5fbd693e8107d124c4229a4653ce0b6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.0] C:\Users\Alex\.android\build-cache\dea608b6bec145cac50546499a5330207f179572\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.0] C:\Users\Alex\.android\build-cache\9353d449d4ee6dd5eac04b7f61c10e9931c9250a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.0] C:\Users\Alex\.android\build-cache\37a8e3ccae5b780827a2dc1d473a65b28dcd1795\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.0] C:\Users\Alex\.android\build-cache\fd301afa8649648b91c34a33bced6aaf17cb1bb3\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.0] C:\Users\Alex\.android\build-cache\95913788f7ce1902df1a05211f21a1139b08b7ba\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.0] C:\Users\Alex\.android\build-cache\048af7257053f6064b866ab86779525ee1c8c2ce\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.0] C:\Users\Alex\.android\build-cache\4fd51a9f23a5f4ebfc261ebc948195c04e93e1d1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.0] C:\Users\Alex\.android\build-cache\575a15182c4b0d08df5aa3d4a4267059fcdc73d8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.0] C:\Users\Alex\.android\build-cache\7e10b1581481cbd9711a087f2d3919823024a110\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Alex\.android\build-cache\3e9744c7415cf99a532ea5d51bccbc3d0c6349af\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.0] C:\Users\Alex\.android\build-cache\79f177c2ba2ee803e2c75945d80391b95473a8cd\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Alex\.android\build-cache\03a6541df1fd53a47d9a3e8fcba2930e249d635b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.0] C:\Users\Alex\.android\build-cache\326f3b2e2f5d0fcb9c325d7fb59914fed0d2ad27\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.0] C:\Users\Alex\.android\build-cache\db995a9006b66cbb3db0468a24698d9f7ff6a83d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.0] C:\Users\Alex\.android\build-cache\2ba90fa3a2cff725ebdf8fb9428c45ca675aa46c\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.0] C:\Users\Alex\.android\build-cache\3a37da324365ee3cf7de2a0ce3eb1300d413c09b\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.0] C:\Users\Alex\.android\build-cache\f42e2d3112e7255792d3814854b75a0750c56029\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.0] C:\Users\Alex\.android\build-cache\378093c3b304494788cf2b4e53a0c14e842bec09\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.0] C:\Users\Alex\.android\build-cache\5b903058c3d3a837c0e6118254595b88f0652e9d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.0] C:\Users\Alex\.android\build-cache\540d01c35d13475176461955aed6b6b52a57be85\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\febb143662bd1b14eca4bf4fde3ce95f07d43fd8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Alex\.android\build-cache\e5353e827a05e7a5627d898e5747e6441b2d7731\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.0] C:\Users\Alex\.android\build-cache\58eafd5a50bcc0f346318b18818ce1973f54aef4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\4341c66813dfa3a366598c5a685ac74d71f5e983\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.0] C:\Users\Alex\.android\build-cache\8517bf80eff7ee2e3df3b5f5010c3d323afa8f30\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.0] C:\Users\Alex\.android\build-cache\c6eeed0f77f0ab65fb711c687a0fc144a552ff74\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.0] C:\Users\Alex\.android\build-cache\315fd4b50f5f6faba1d2bd89ace7c5ce34c8acb6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Alex\.android\build-cache\4feac9abe4cd6d95b837fdf155336f00d1b20508\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.0] C:\Users\Alex\.android\build-cache\030bae05f0bec253e236fe01dcbee9c3555bf549\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Alex\.android\build-cache\ac93813da0123bdbdd405d1a196cc4e018333d24\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.0] C:\Users\Alex\.android\build-cache\242391936509240b9473ab1fe244a6ce206d5605\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Alex\.android\build-cache\9fe190321d6ed6ee042098c5e0d1e763868e8845\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.0.1] C:\Users\Alex\.android\build-cache\10c2be531fbcf55d3171387570873d0827798618\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.0.1] C:\Users\Alex\.android\build-cache\0bcb1760ce4dd047b714ff70e003ea6b779e7b27\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.1] C:\Users\Alex\.android\build-cache\375a89dd7a472279b6c38bf4c949d4d312145920\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.0.1] C:\Users\Alex\.android\build-cache\c9a1e276f9e5a500890c46636632a758762d6f81\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.0.1] C:\Users\Alex\.android\build-cache\2a6f19ad5307a14b1b9a5611ebd47a33340f06b7\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Alex\.android\build-cache\146da4db01b1500b5ec01070d2a223e84f60dec8\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.1] C:\Users\Alex\.android\build-cache\8d9a4aa4f230f21f6afb02b5bca479e67010fcb8\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Alex\AndroidStudioProjects\AttendanceProgramFinal\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.0] C:\Users\Alex\.android\build-cache\5c4b9cd26eef45b8263cb152aea542d7c7a3536e\output\AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Alex\.android\build-cache\8882359715b454e9e1978118b17c4d806cce5430\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\febb143662bd1b14eca4bf4fde3ce95f07d43fd8\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\4341c66813dfa3a366598c5a685ac74d71f5e983\output\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.0] C:\Users\Alex\.android\build-cache\8882359715b454e9e1978118b17c4d806cce5430\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.0] C:\Users\Alex\.android\build-cache\3816f469adaeb84e3e4ca71cae869a6e32dad190\output\AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.0] C:\Users\Alex\.android\build-cache\1433e3f5ee6f192213b6d9f4f606d26fab3c4b29\output\AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Alex\.android\build-cache\b1f7fc79291f1f314965d3eeed9fa89bbbea5e6b\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Alex\.android\build-cache\b1f7fc79291f1f314965d3eeed9fa89bbbea5e6b\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Alex\.android\build-cache\b1f7fc79291f1f314965d3eeed9fa89bbbea5e6b\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Alex\.android\build-cache\b1f7fc79291f1f314965d3eeed9fa89bbbea5e6b\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Alex\.android\build-cache\b1f7fc79291f1f314965d3eeed9fa89bbbea5e6b\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.0] C:\Users\Alex\.android\build-cache\b1f7fc79291f1f314965d3eeed9fa89bbbea5e6b\output\AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.0] C:\Users\Alex\.android\build-cache\a3208c60e593bd7a3834b06fda76c829a6b03aa6\output\AndroidManifest.xml:25:25-75
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Alex\.android\build-cache\3e9744c7415cf99a532ea5d51bccbc3d0c6349af\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.0] C:\Users\Alex\.android\build-cache\03a6541df1fd53a47d9a3e8fcba2930e249d635b\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.0] C:\Users\Alex\.android\build-cache\3e9744c7415cf99a532ea5d51bccbc3d0c6349af\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.0] C:\Users\Alex\.android\build-cache\6cfc55e114ae008cbab93033b68b52e8e6cf71cb\output\AndroidManifest.xml:30:27-75
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\febb143662bd1b14eca4bf4fde3ce95f07d43fd8\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.0] C:\Users\Alex\.android\build-cache\febb143662bd1b14eca4bf4fde3ce95f07d43fd8\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.0] C:\Users\Alex\.android\build-cache\b70ed82d4465a323f349b97452443fa815b653a4\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.0] C:\Users\Alex\.android\build-cache\70fc59f76f26f588809173b77e850094a17ee7c5\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Alex\.android\build-cache\e5353e827a05e7a5627d898e5747e6441b2d7731\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Alex\.android\build-cache\e5353e827a05e7a5627d898e5747e6441b2d7731\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Alex\.android\build-cache\e5353e827a05e7a5627d898e5747e6441b2d7731\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Alex\.android\build-cache\e5353e827a05e7a5627d898e5747e6441b2d7731\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.0] C:\Users\Alex\.android\build-cache\e5353e827a05e7a5627d898e5747e6441b2d7731\output\AndroidManifest.xml:6:79-143
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Alex\.android\build-cache\4feac9abe4cd6d95b837fdf155336f00d1b20508\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Alex\.android\build-cache\4feac9abe4cd6d95b837fdf155336f00d1b20508\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.0] C:\Users\Alex\.android\build-cache\4feac9abe4cd6d95b837fdf155336f00d1b20508\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Alex\.android\build-cache\ac93813da0123bdbdd405d1a196cc4e018333d24\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Alex\.android\build-cache\ac93813da0123bdbdd405d1a196cc4e018333d24\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Alex\.android\build-cache\ac93813da0123bdbdd405d1a196cc4e018333d24\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.0] C:\Users\Alex\.android\build-cache\ac93813da0123bdbdd405d1a196cc4e018333d24\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Alex\.android\build-cache\9fe190321d6ed6ee042098c5e0d1e763868e8845\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Alex\.android\build-cache\9fe190321d6ed6ee042098c5e0d1e763868e8845\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.0] C:\Users\Alex\.android\build-cache\9fe190321d6ed6ee042098c5e0d1e763868e8845\output\AndroidManifest.xml:20:20-65
